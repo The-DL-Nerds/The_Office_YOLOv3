@@ -1,4 +1,4 @@
-# Repository Title Goes Here
+# Implementation of YOLOv3 on 'The Office' Dataset
 
 Culminating our learning on Andrew NGs deep learning specialization left us with an abundance of knowledge in a few popular fields of deep learning. While we understood the fundamentals, we were actively looking for ways to deepen our understanding of Convolution Neural Networks (CNNs). An interest in applying popular object detection models on the popular show ‘The Office’ led us to creating our first ever deep learning project. 
 Here, we used the yolov3 model and trained it on our custom Office dataset obtained through web scraping of google images. We picked four popular characters from the show as our four classes and trained the model on google collab. 
