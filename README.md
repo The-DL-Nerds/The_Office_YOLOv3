@@ -44,7 +44,7 @@ Change the following lines of code
 
 While the code does the job pretty well, there are times when the number of images you choose to scrape might exceed the number of search results.
 
-![](insert image url after uploading image to git)
+![](/README_Img/1.png)
 
 If this happens, stop the code from running, change the number of images to the latest number of search results found (Here it is 412) and then re-run the code. 
 
