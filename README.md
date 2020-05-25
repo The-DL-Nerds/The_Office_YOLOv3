@@ -22,7 +22,7 @@ For the latter, it is a lot easier to have a piece of code that can automaticall
 
 To implement the code and get it running for your task, [Image Scraping with Python](https://towardsdatascience.com/image-scraping-with-python-a96feda8af2d) does an excellent job explaining the process of web scraping google images. To implement the same
 
-> Install chrome driver and place it in the same folder as scraping.ipynb
+- Install chrome driver and place it in the same folder as scraping.ipynb
 
 Change the following lines of code
 
@@ -54,8 +54,6 @@ Here, you manually go through your images and delete the ones that are not your 
 
 > Install labelImg
 > Go to windows_v1.8.0\windows_v1.8.0\data and change the default classes in predefined_classes to the names of your classes 
-
-![](/README_Img/2.png)
 
 Next open labelImg and do the following
 
