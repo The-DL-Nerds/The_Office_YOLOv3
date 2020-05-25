@@ -55,7 +55,7 @@ Here, you manually go through your images and delete the ones that are not your 
 > Install labelImg
 > Go to windows_v1.8.0\windows_v1.8.0\data and change the default classes in predefined_classes to the names of your classes 
 
-![](insert image url after uploading image to git)
+![](/README_Img/2.png)
 
 Next open labelImg and do the following
 
@@ -65,7 +65,7 @@ Next open labelImg and do the following
 - Select a picture from the file list, click on Create RectBox and draw the bounding box around the class 
 - Then click on the class in the class list
 
-![](insert image url after uploading image to git)
+![](/README_Img/3.png)
 
 Repeat this process for all your images. Once you have completed the process, compile all the class images and annotations in one folder and store it as a zip file. 
 
@@ -98,7 +98,13 @@ To configure the files for training
 
 - Create a custom cfg file – set batch = 64 and subdivision =16. Change the last conv layer before every yolo layer to match the number of classes.  4 in our case. Change the number of filters  f = num_of_anchors/3 * (classes + 1 + 4)
 - Used a text editor to create an obj.names file
+
+![](/README_Img/4.png)
+
 - Also created an obj.data file and filled it in like this
+
+![](/README_Img/5.png)
+
 This backup path is where we will save the weights to of our model throughout training. Create a backup folder in your google drive and put its correct path in this file.
 - To create the train.txt we used a script that generates it for us. Download the script from the github repo and upload it onto your drive.
 
