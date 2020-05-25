@@ -52,6 +52,8 @@ While this cut shorts your time of having to manually download images off the we
 
 Here, you manually go through your images and delete the ones that are not your class. Once this is done, you will have to manually annotate your images. To do this
 
+![](/README_Img/2.png)
+
 - Install labelImg
 - Go to windows_v1.8.0\windows_v1.8.0\data and change the default classes in predefined_classes to the names of your classes 
 
