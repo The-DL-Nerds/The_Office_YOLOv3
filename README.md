@@ -88,7 +88,9 @@ The process is relatively simple
 
 If everything runs error free, you have a yolov3 model trained on the coco dataset and are ready to move on to training the model on your custom dataset.
 
-### Training the Dataset Using YOLOv3 on Google Colab
+---
+
+## Training the Dataset Using YOLOv3 on Google Colab
 
 - Used The AI Guy’s Google Colab notebook [YOLOv3_Tutorial](https://colab.research.google.com/drive/1Mh2HP_Mfxoao6qNFbhfV3u28tG8jAVGk). After enabling the GPU on the colab notebook in the repository, it is necessary to clone darknet from AlexeyAB’s famous repository. Enable OpenCV and GPU for darknet.
 - Images can also be uploaded to your Google Drive and easily have detections run on them. Rename the folder with the annotated images on the local machine to ‘obj’. Zip the folder and upload it to Google Drive. 
@@ -111,8 +113,9 @@ This backup path is where we will save the weights to of our model throughout tr
 Used pre-trained weights for the convolutional layers, for it to be more accurate and not have to train for as long. 
 Final step involved training the custom object detector for about 6-7 hours, achieving a loss of under 0.1. The weights after every 1000 epochs were saved automatically in the weights folder created on our google drive.
 
+---
 
-### Running YOLOv3 With Custom Weights For Live Object Detection
+## Running YOLOv3 With Custom Weights For Live Object Detection
 
 Used The AI Guy’s GitHub repository [Object-Detection-API](https://github.com/theAIGuysCode/Object-Detection-API) for this task. 
 All of the tasks were performed in the command prompt itself. First step was to clone the above repository. 
